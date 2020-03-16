@@ -1,8 +1,8 @@
-1. 音频格式问题：   \ \
-    (1)pcm（pcm_s16le），wav，speex(speex-wb)，推荐使用pcm
-    (2)采样率为16000 或者 8000. 推荐使用16000，比特率为16bit
-    (3)单声道
-    (4)现可以通过ffmpeg的exe文件快速转码 ffmpeg -y -i test.mp3 -acodec pcm_s16le -f s16le -ac 1 -ar 16000 test.pcm，用现成Java代码未发现能符合要求的方式。
+1. 音频格式问题：   
+    (1)pcm（pcm_s16le），wav，speex(speex-wb)，推荐使用pcm 
+    (2)采样率为16000 或者 8000. 推荐使用16000，比特率为16bit 
+    (3)单声道 
+    (4)现可以通过ffmpeg的exe文件快速转码 ffmpeg -y -i test.mp3 -acodec pcm_s16le -f s16le -ac 1 -ar 16000 test.pcm，用现成Java代码未发现能符合要求的方式。 
     
 2. 依赖：
     (1) 
